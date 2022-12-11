@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1d89bee.css",
+    "main.js": "/static/js/main.7892cc5c.js",
+    "static/media/eu3.png": "/static/media/eu3.97c38453599c58dd7a55.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/sidebar.png": "/static/media/sidebar.b2225070b8adae68d063.png",
+    "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/resume.pdf": "/static/media/resume.e80d44e1b96ca3953b62.pdf",
+    "static/media/hoc.png": "/static/media/hoc.e6af51fc04c57ae67096.png",
+    "static/media/logo.png": "/static/media/logo.efdd5a9e89403c1174a7.png",
+    "static/media/logo2.png": "/static/media/logo2.6b5ba030d582f22285d1.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/static/media/wave.08c90860f1016eac0882.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/index.html",
+    "main.e1d89bee.css.map": "/static/css/main.e1d89bee.css.map",
+    "main.7892cc5c.js.map": "/static/js/main.7892cc5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1d89bee.css",
+    "static/js/main.7892cc5c.js"
+  ]
+}
