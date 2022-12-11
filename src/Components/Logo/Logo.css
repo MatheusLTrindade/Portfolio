@@ -1,0 +1,38 @@
+.n-logo{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+.n-logoImg > img{
+    height: 5vh;
+    margin-right: 0.2rem;
+    transform: scale(1);
+}
+
+.n-logoText{
+    height: 10vh;
+    margin-left: 0.5rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.n-logoText > span:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--gray);
+}
+
+.n-logoText > span:nth-child(2){
+    font-size: 0.35rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: var(--black);
+    background-color: var(--eggshell);
+    padding: 3px 5px 3px 8px;
+    border-radius: 3px;
+}

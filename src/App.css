@@ -1,0 +1,45 @@
+:root {
+    --black: #222222;
+    --yellow: #f5c32c;
+    --verdigris: #00adb5;
+    --eggshell: #f3efe0;
+    --gray: #a2aaad;
+    --blueCard: #ddf8fe;
+    --purple: #eed2ff;
+    --boxShadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    --verdigrisCard: rgba(0, 173, 181, 0.65);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App {
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--eggshell);
+}
+
+.button {
+    border-radius: 34px;
+    border: none;
+    color: var(--eggshell);
+    font-size: 16px;
+    padding: 11px 26px;
+    background: linear-gradient(
+        180deg,
+        var(--verdigris) 26.71%,
+        #146063 99.36%
+    );
+    box-shadow: 0px 20px 24px 3px #1460636b;
+}
+
+.button:hover {
+    background: transparent;
+    cursor: pointer;
+    color: var(--verdigris);
+    border: 1px solid var(--verdigris);
+}
+
+@media screen and (max-width: 480px) {
+    .App {
+        padding: 0.5rem 1rem;
+    }
+}
