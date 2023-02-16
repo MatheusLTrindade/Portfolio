@@ -62,3 +62,14 @@
 .drop-menu span:hover{
     background: #1460636b;
 }
+
+@media screen and (max-width: 480px) {
+    .drop-menu{
+        margin-left: -1rem;
+        min-width: 40px;
+        min-height: 55px;
+    }
+    .drop-menu span{
+        font-size: 0.35rem;
+    }
+}
