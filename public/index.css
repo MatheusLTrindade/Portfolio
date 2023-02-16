@@ -3,8 +3,13 @@
     src: local('Gumela'), url('../src/fonts/Gumela-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'GumelaRegular';
+    src: local('GumelaRegular'), url('./fonts/Gumela-Regular.ttf') format('truetype');
+}
+
 * {
-    font-family: 'Gumela';
+    font-family: 'Gumela', 'GumelaRegular';
     font-weight: normal;
     font-size: 20px;
 }
