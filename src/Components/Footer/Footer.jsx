@@ -17,9 +17,15 @@ function Footer() {
             <div className="f-content">
                 <span>matheus.lopes.trindade@hotmail.com</span>
                 <div className="f-icons">
-                    <Insta size='3rem'/>
-                    <WhatsApp size='3rem'/>
-                    <Github size='3rem'/>
+                    <a href="https://www.instagram.com/theteu_lt/">
+                        <Insta size='3rem'/>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5511957103895&text=Ol%C3%A1%20Matheus,%20tudo%20bem?%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seu%20perfil%20profissional.">
+                        <WhatsApp size='3rem'/>
+                    </a>
+                    <a href="https://github.com/MatheusLTrindade">
+                        <Github size='3rem'/>
+                    </a>
                 </div>
                 <span style={{marginTop: '-3rem',fontSize: '12px', fontStyle: 'italic'}}>{copy} TrindadeWebDeveloper</span>
             </div>

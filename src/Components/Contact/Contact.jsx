@@ -6,6 +6,13 @@ import "./Contact.css";
 function Contact() {
     const form = useRef();
 
+    const [user, setUser] = useState(false);
+
+    const [status, setStatus] = useState({
+        type: '',
+        message: ''
+    });
+
     const [done, setDone] = useState(false)
 
     const sendEmail = (e) => {
@@ -15,13 +22,26 @@ function Contact() {
             .then((result) => {
                 console.log(result.text);
                 setDone(true);
+                setUser({
+                    name: '',
+                    email: '',
+                    message: ''
+                });
+                setStatus({
+                    type: 'success',
+                    message: 'Thanks for contacting me!'
+                });
             }, (error) => {
                 console.log(error.text);
+                setStatus({
+                    type: 'error',
+                    message: 'We were unable to forward your message, please try again!'
+                });
             });
     };
 
     return (
-        <div className="contact-form">
+        <div className="contact-form" id='Contact'>
             {/* left side */}
             <div className="w-left">
                 <div className="awesome">
@@ -34,11 +54,12 @@ function Contact() {
             {/* right side */}
             <div className="c-right">
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="user_name" className="user" placeholder="Name" />
-                    <input type="email" name="user_email" className="user" placeholder="Email" />
-                    <textarea name="message" className="user textarea" placeholder="Message" />
+                    <input type="text" name="user_name" className="user" placeholder="Name" value={user.name}/>
+                    <input type="email" name="user_email" className="user" placeholder="Email" value={user.email}/>
+                    <textarea name="message" className="user textarea" placeholder="Message" value={user.message}/>
                     <input type="submit" value="Send" className="button" />
-                    <span>{done && "Thanks for contacting me!"}</span>
+                
+                    {status.type === 'error' ? <span style={{color: "#FF0000"}}>{status.message}</span> : <span>{done && status.message}</span>}
                 </form>
             </div>
         </div>

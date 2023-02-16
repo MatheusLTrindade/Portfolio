@@ -5,6 +5,7 @@ import './Navbar.css'
 
 import Logo from '../Logo/Logo'
 import Toggle from '../Toggle/Toggle'
+import Language from '../Language/Language'
 
 function Navbar() {
     return (
@@ -33,7 +34,10 @@ function Navbar() {
                         </Link>
                     </ul>
                 </div>
-                <button className="button n-button">Contact</button>
+                <Link spy={true} to='Contact' smooth={true}>
+                    <button className="button n-button">Contact</button>
+                </Link>
+                <Language/>
             </div>
         </div>
     )

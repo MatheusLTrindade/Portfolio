@@ -30,7 +30,7 @@
     cursor: pointer;
 }
 
-.n-list > ul > li:hover{
+.n-list li:hover{
     cursor: pointer;
     color: var(--verdigris);
 }

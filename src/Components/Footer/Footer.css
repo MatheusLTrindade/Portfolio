@@ -27,6 +27,10 @@
     gap: 2rem;
 }
 
+.f-icons a{
+    color: var(--eggshell);
+}
+
 @media screen and (max-width: 480px) {
     .f-content{
         transform: scale(0.5);

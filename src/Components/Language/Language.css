@@ -1,0 +1,64 @@
+.language{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 1rem;
+    z-index: 2;
+}
+
+.language > *{
+    width: 1rem;
+    height: 1rem;
+}
+
+.language:hover{
+    border-color: var(--verdigris);
+}
+
+.drop-btn{
+    background: var(--black);
+    z-index: 2;
+    border-radius: 1rem;
+}
+
+.language:hover .drop-btn{
+    transform: scale(120%);
+    color: var(--verdigris);
+    transition: 0.3s;
+}
+
+.drop-menu{
+    display: none;
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    padding-top: 0.7rem;
+    border: 2px solid var(--verdigris);
+    border-radius: 1rem;
+    min-width: 75px;
+    min-height: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.language:hover .drop-menu{
+    display: block;
+}
+
+.drop-menu span{
+    margin-top: 0.1rem;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.drop-menu span:hover{
+    background: #1460636b;
+}
