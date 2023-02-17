@@ -3,7 +3,11 @@ import { themeContext } from "../../Context";
 
 import './Experience.css'
 
+import { useTranslation } from "react-i18next";
+
 function Experience() {
+
+    const {t} = useTranslation();
 
     const theme = useContext(themeContext);
     const lightMode = theme.state.lightMode;
@@ -15,18 +19,18 @@ function Experience() {
                     style={{
                         backgroundImage: lightMode? 'linear-gradient(to bottom, #EED2FF 0%, #00ADB5 100%)' : ''
                     }}
-                >8+</div>
-                <span>years</span>
-                <span>Experience</span>
+                >1+</div>
+                <span>{t('years')}</span>
+                <span>{t('Experience')}</span>
             </div>
             <div className="achievement">
                 <div className="circle" 
                     style={{
                         backgroundImage: lightMode? 'linear-gradient(to bottom, #EED2FF 0%, #00ADB5 100%)' : ''
                     }}
-                >20+</div>
-                <span>completed</span>
-                <span>Projects</span>
+                >10+</div>
+                <span>{t('completed')}</span>
+                <span>{t('Projects')}</span>
             </div>
             <div className="achievement">
                 <div className="circle" 
@@ -34,8 +38,8 @@ function Experience() {
                         backgroundImage: lightMode? 'linear-gradient(to bottom, #EED2FF 0%, #00ADB5 100%)' : ''
                     }}
                 >5+</div>
-                <span>companies</span>
-                <span>Work</span>
+                <span>{t('companies')}</span>
+                <span>{t('Work')}</span>
             </div>
         </div>
     )

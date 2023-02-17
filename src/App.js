@@ -11,6 +11,8 @@ import Footer from "./Components/Footer/Footer";
 import { themeContext } from "./Context";
 import { useContext } from "react";
 
+import './utils/i18n';
+
 function App() {
     const theme = useContext(themeContext);
     const lightMode = theme.state.lightMode;

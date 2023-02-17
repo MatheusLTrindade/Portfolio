@@ -11,7 +11,12 @@ import profilePic2 from "../../img/profile2.jpg"
 import profilePic3 from "../../img/profile3.jpg"
 import profilePic4 from "../../img/profile4.jpg"
 
+import { useTranslation } from "react-i18next";
+
 function Testimonial() {
+
+    const {t} = useTranslation();
+
     const clients = [
         {
             img: profilePic1,
@@ -38,9 +43,9 @@ function Testimonial() {
     return (
         <div className="t-wrapper" id="Testimonials">
             <div className="t-heading">
-                <span>Clients always get </span>
-                <span>Exceptional Work </span>
-                <span>from me...</span>
+                <span>{t('Clients always get ')}</span>
+                <span>{t('Exceptional Work ')}</span>
+                <span>{t('from me...')}</span>
                 <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
                 <div className="blur t-blur2" style={{ backgorund: "skyblue" }}></div>
             </div>

@@ -9,8 +9,11 @@ import Glasses from "../../img/glasses.png"
 import HeartEmoji from "../../img/heartemoji.png"
 import Humble from "../../img/humble.png"
 
+import { useTranslation } from "react-i18next";
 
 function Services() {
+
+    const {t} = useTranslation();
 
     const transition = {duration : 1, type: 'spring'}
 
@@ -18,19 +21,15 @@ function Services() {
         <div className="services" id="Services">
             {/* left side */}
             <div className="awesome">
-                <span>My Awesome</span>
-                <span>services</span>
-                <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <br />
-                    Quod ipsam quibusdam placeat nostrum suscipit natus
-                    <br />
-                    aspernatur porro, iusto vitae qui delectus! Dolorum qui
-                    <br />
-                    tempore fuga corporis quo maxime odit dolore?
+                <span>{t('My Awesome')}</span>
+                <span>{t('Services')}</span>
+                <span
+                    style={{maxWidth: '360px'}}
+                    >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam quibusdam placeat nostrum suscipit natus aspernatur porro, iusto vitae qui delectus! Dolorum qui tempore fuga corporis quo maxime odit dolore?
                 </span>
                 <a href={Resume} download>
-                    <button className= "button s-button">Download CV</button>
+                    <button className= "button s-button">{t('Download CV')}</button>
                 </a>
                 <div className="blur s-blur1" style={{background: '#ABF1FF94'}}></div>
             </div>
@@ -46,7 +45,7 @@ function Services() {
                 >
                     <Card 
                         emoji = {HeartEmoji}
-                        heading = {'Design'}
+                        heading = {t('Designer')}
                         detail = {'Figma, Canvas, Sketch, Photoshop, Adobe, Adobe XD'}
                     />
                 </motion.div>
@@ -60,7 +59,7 @@ function Services() {
                 >
                     <Card 
                         emoji = {Glasses}
-                        heading = {'Developer'}
+                        heading = {t('Developer')}
                         detail = {'HTML, CSS, JavaScript, React, Angular, Vue, Dooker, Sass, Bootstrap'}
                     />
                 </motion.div>

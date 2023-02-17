@@ -9,8 +9,11 @@ import Amazon from '../../img/amazon.png'
 import Shopify from '../../img/Shopify.png'
 import Facebook from '../../img/Facebook.png'
 
+import { useTranslation } from "react-i18next";
 
 function Works() {
+
+    const {t} = useTranslation();
 
     const transition = {duration : 3.5, type: 'spring'}
 
@@ -18,8 +21,8 @@ function Works() {
         <div className="works">
             {/* left side */}
             <div className="awesome">
-                <span>Works for All these</span>
-                <span>Brands & Clients</span>
+                <span>{t('Works for All these')}</span>
+                <span>{t('Brands & Clients')}</span>
                 <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     <br />
@@ -30,7 +33,7 @@ function Works() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </span>
             
-                <button className= "button s-button">Hire me</button>
+                <button className= "button s-button">{t('Hire me')}</button>
             
                 <div className="blur s-blur1" style={{background: '#ABF1FF94'}}></div>
             </div>

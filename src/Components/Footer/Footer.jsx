@@ -27,7 +27,11 @@ function Footer() {
                         <Github size='3rem'/>
                     </a>
                 </div>
-                <span style={{marginTop: '-3rem',fontSize: '12px', fontStyle: 'italic'}}>{copy} TrindadeWebDeveloper</span>
+                <a 
+                    href="https://trindade.netlify.app" 
+                    style={{marginTop: '-3rem',fontSize: '12px', fontStyle: 'italic', textDecoration: 'none', color: 'inherit'}}>
+                    {copy} TrindadeWebDeveloper
+                </a>
             </div>
         </div>
     );

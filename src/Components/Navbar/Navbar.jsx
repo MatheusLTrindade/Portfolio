@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 
 function Navbar() {
 
-    const {t, i18n:{changeLanguage}} = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <div className="n-wrapper">

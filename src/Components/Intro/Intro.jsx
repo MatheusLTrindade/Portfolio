@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 
 function Intro() {
 
-    const {t, i18n:{changeLanguage}} = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <div className="intro">

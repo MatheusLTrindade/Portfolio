@@ -6,11 +6,48 @@
         "Portfolio": "Portfolio",
         "Testimonials": "Testimonials",
         "Contact": "Contact",
+
         "English": "English",
         "Portuguese": "Portuguese",
         "Spanish": "Spanish",
+
         "Hy! I Am": "Hy! I Am",
         "Frontend Developer with high level of experience in web designing and development, producing quality work": "Frontend Developer with high level of experience in web designing and development, producing quality work",
-        "Hire me": "Hire me"
+        "Hire me": "Hire me",
+
+        "My Awesome": "My Awesome",
+        "Services": "Services",
+        "Download CV": "Download CV",
+        "Developer": "Developer",
+        "Designer": "Designer",
+        "LEARN MORE": "LEARN MORE",
+
+        "years": "years",
+        "Experience": "Experience",
+        "completed": "completed",
+        "Projects": "Projects",
+        "companies": "companies",
+        "Work": "Work",
+
+        "Works for All these": "Works for All these",
+        "Brands & Clients": "Brands & Clients",
+        "Hire me": "Hire me",
+
+        "Recent Projects": "Recent Projects",
+        "Portfolio": "Portfolio",
+
+        "Clients always get ": "Clients always get ",
+        "Exceptional Work ": "Exceptional Work ",
+        "from me...": "from me...",
+
+        "Get in touch": "Get in touch",
+        "Contact me": "Contact me",
+        "If you prefer, you can contact me through the social networks below.": "If you prefer, you can contact me through the social networks below.",
+        "Name": "Name",
+        "Message": "Message",
+        "Send": "Send",
+        
+        "Thanks for contacting me!": "Thanks for contacting me!",
+        "Sorry, your message could not be forwarded, please try again!": "Sorry, your message could not be forwarded, please try again!"
     }
 }

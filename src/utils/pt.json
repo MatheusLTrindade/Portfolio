@@ -6,11 +6,48 @@
         "Portfolio": "Portfólio",
         "Testimonials": "Depoimentos",
         "Contact": "Contato",
+
         "English": "Inglês",
         "Portuguese": "Português",
         "Spanish": "Espanhol",
+
         "Hy! I Am": "Olá! Eu sou",
         "Frontend Developer with high level of experience in web designing and development, producing quality work": "Desenvolvedor Frontend com alto nível de experiência em web design e desenvolvimento, produzindo trabalhos de qualidade",
-        "Hire me": "Contrate-me"
+        "Hire me": "Contrate-me",
+
+        "My Awesome": "Meus Incríveis",
+        "Services": "Serviços",
+        "Download CV": "Baixar CV",
+        "Developer": "Desenvolvedor",
+        "Designer": "Projetista",
+        "LEARN MORE": "SAIBA MAIS",
+
+        "years": "anos",
+        "Experience": "Experiência",
+        "completed": "completos",
+        "Projects": "Projetos",
+        "companies": "empresas",
+        "Work": "Trabalho",
+
+        "Works for All these": "Trabalho para todas estas",
+        "Brands & Clients": "Marcas e Clientes",
+        "Hire me": "Contrate-me",
+
+        "Recent Projects": "Projetos Recentes",
+        "Portfolio": "Portfólio",
+
+        "Clients always get ": "Os clientes sempre recebem ",
+        "Exceptional Work ": "Trabalhos Excepcionais ",
+        "from me...": "de mim...",
+
+        "Get in touch": "Entre em contato",
+        "Contact me": "Contate-me",
+        "If you prefer, you can contact me through the social networks below.": "Se preferir, pode entrar em contato comigo através das redes sociais abaixo.",
+        "Name": "Nome",
+        "Message": "Mensagem",
+        "Send": "Enviar",
+        
+        "Thanks for contacting me!": "Obrigado por me contactar!",
+        "Sorry, your message could not be forwarded, please try again!": "Desculpe, sua mensagem não pôde ser encaminhada, por favor, tente novamente!"
     }
 }

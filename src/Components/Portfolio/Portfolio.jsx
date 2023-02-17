@@ -9,12 +9,17 @@ import Ecommerce from '../../img/ecommerce.png'
 import HOC from '../../img/hoc.png'
 import MusicApp from '../../img/musicapp.png'
 
+import { useTranslation } from "react-i18next";
+
 function Portfolio() {
+
+    const {t} = useTranslation();
+
     return (
         <div className="portfolio" id='Portfolio'>
             {/* heading */}
-            <span>Recent Projects</span>
-            <span>Portfolio</span>
+            <span>{t('Recent Projects')}</span>
+            <span>{t('Portfolio')}</span>
 
             {/* slider */}
             <Swiper

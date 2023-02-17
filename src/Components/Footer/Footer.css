@@ -25,6 +25,7 @@
 .f-icons{
     display: flex;
     gap: 2rem;
+    margin-top: -2rem;
 }
 
 .f-icons a{
