@@ -9,21 +9,23 @@ import Vector1 from '../../img/Vector1.png'
 import Vector2 from '../../img/Vector2.png'
 import Me from '../../img/eu3.png'
 
+import {} from "../../utils/i18n";
+import { useTranslation } from "react-i18next";
+
 function Intro() {
+
+    const {t, i18n:{changeLanguage}} = useTranslation();
+
     return (
         <div className="intro">
             {/* left side */}
             <div className="i-left">
                 <div className="i-name">
-                    <span>Hy! I Am</span>
+                    <span>{t('Hy! I Am')}</span>
                     <span>Matheus Trindade</span>
-                    <span>
-                        Frontend Developer with high 
-                        level of experience in web designing
-                        and development, producing quality work
-                    </span>
+                    <span>{t('Frontend Developer with high level of experience in web designing and development, producing quality work')}</span>
                 </div>
-                <button className="button i-button">Hire me</button>
+                <button className="button i-button">{t('Hire me')}</button>
                 <div className="i-icons">
                     <a href="https://github.com/MatheusLTrindade">
                         <img src={GitHub} alt="" />

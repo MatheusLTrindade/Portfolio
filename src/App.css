@@ -18,11 +18,13 @@
 }
 
 .button {
+    text-align: center;
     border-radius: 34px;
     border: none;
     color: var(--eggshell);
-    font-size: 16px;
-    padding: 11px 26px;
+    font-size: 0.8rem;
+    min-width: 4.5rem;
+    min-height: 1.6rem;
     background: linear-gradient(
         180deg,
         var(--verdigris) 26.71%,

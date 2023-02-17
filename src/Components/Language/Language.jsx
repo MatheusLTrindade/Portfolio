@@ -5,10 +5,15 @@ import './Language.css'
 
 import LanguageIcon from '@iconscout/react-unicons/icons/uil-globe'
 
+import {} from "../../utils/i18n";
+import { useTranslation } from "react-i18next";
+
 function Language(){
 
     const theme = useContext(themeContext);
     const lightMode = theme.state.lightMode;
+    
+    const {t, i18n:{changeLanguage}} = useTranslation();
 
     return(
         <div className="language">
@@ -18,9 +23,18 @@ function Language(){
                 }}
             />
             <div className="drop-menu">
-                <span style={{background: 'var(--verdigris)'}}>English</span>
-                <span>Portuguese</span>
-                <span>Spanish</span>
+                <span 
+                    onClick={()=> changeLanguage('en')}>
+                        {t('English')}
+                </span>
+                <span
+                    onClick={()=> changeLanguage('pt')}>
+                        {t('Portuguese')}
+                </span>
+                <span
+                    onClick={()=> changeLanguage('es')}>
+                        {t('Spanish')}
+                </span>
             </div>
         </div>
     )

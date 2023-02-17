@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import { ThemeProvider } from "./Context";
 
+import './utils/i18n'
+
 ReactDOM.render(
 
     <ThemeProvider>
