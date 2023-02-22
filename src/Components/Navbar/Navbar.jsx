@@ -6,6 +6,7 @@ import './Navbar.css'
 import Logo from '../Logo/Logo'
 import Toggle from '../Toggle/Toggle'
 import Language from '../Language/Language'
+import Sidebar from '../Sidebar/Sidebar'
 
 import { useTranslation } from "react-i18next";
 
@@ -14,7 +15,7 @@ function Navbar() {
     const {t} = useTranslation();
 
     return (
-        <div className="n-wrapper">
+        <div className="n-wrapper" id='Navbar'>
             <div className="n-left">
                 <Logo />
                 <Toggle />
@@ -43,6 +44,7 @@ function Navbar() {
                     <button className="button n-button">{t('Contact')}</button>
                 </Link>
                 <Language/>
+                <Sidebar />
             </div>
         </div>
     )

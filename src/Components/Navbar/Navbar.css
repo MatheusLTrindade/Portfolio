@@ -30,10 +30,35 @@
     cursor: pointer;
 }
 
-.n-list li:hover{
+.n-list li{
+    position: relative;
+    display: inline-block;
     cursor: pointer;
+    transition: color 0.8s;
+}
+
+.n-list li:hover{
     color: var(--verdigris);
 }
+
+.n-list li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: var(--verdigris);
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: left;
+    transition: scale 0.35s;
+}
+
+.n-list li:hover::before{
+    scale: 1;
+}
+
 
 .n-button{
     flex: 2;

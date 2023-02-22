@@ -1,0 +1,62 @@
+.s-btn{
+    display: flex;
+    position: fixed;
+    top: 4.5vh;
+    right: -1vw;
+    border-radius: 1rem 0 0 1rem;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px var(--verdigris);
+    z-index: 3;
+    transition: 850ms;
+}
+
+.s-btn.active{
+    right: 100vw;
+    transition: 350ms;
+}
+
+.s-btn-close{
+    display: flex;
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+}
+
+.s-menu{
+    z-index: 3;
+    background: var(--verdigris);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding-top: 4rem;
+    top: 0;
+    right: -100%;
+    transition: 850ms;
+}
+
+.s-menu.active{
+    right: 0;
+    transition: 350ms;
+}
+
+.s-menu-items{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 3rem;
+    padding-top: 4rem;
+    margin-left: -1rem;
+    text-align: center;
+}
+
+.button.s-button{
+    background: var(--eggshell);
+    color: var(--verdigris);
+}
+
+
+
