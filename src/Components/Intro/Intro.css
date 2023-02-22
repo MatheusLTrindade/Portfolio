@@ -107,6 +107,21 @@
     filter: blur(9px);
 }
 
+@media screen and (max-width: 768px) {
+    .intro{
+        flex-direction: column;
+        height: 44rem;
+        gap: 8rem;
+    }
+    .blur-icons{
+        top: 22.5rem;
+    }
+    .i-right{
+        transform: scale(0.95);
+        left: 5.5rem;
+        top: -12rem;
+    }
+}
 @media screen and (max-width: 480px) {
     .intro{
         flex-direction: column;
@@ -119,5 +134,6 @@
     .i-right{
         transform: scale(0.75);
         left: -5.5rem;
+        top: 0;
     }
 }

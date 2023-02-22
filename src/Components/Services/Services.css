@@ -56,7 +56,23 @@
     filter: blur(200px);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 50rem;
+        padding: 0;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards > *{
+        position: relative;
+    }
+}
+@media screen and (max-width: 680px) {
     .services{
         margin-top: 0;
         flex-direction: column;
