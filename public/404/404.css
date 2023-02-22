@@ -1,4 +1,21 @@
+@font-face {
+    font-family: 'Gumela';
+    src: local('Gumela'), url('../src/fonts/Gumela-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GumelaRegular';
+    src: local('GumelaRegular'), url('./fonts/Gumela-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Gumela', 'GumelaRegular';
+    font-weight: normal;
+    font-size: 20px;
+}
+
 body{
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
