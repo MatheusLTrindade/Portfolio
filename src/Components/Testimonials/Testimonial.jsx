@@ -60,8 +60,11 @@ function Testimonial() {
                     return(
                         <SwiperSlide key={index}>
                             <div className="testimonial">
-                                <img src={client.img} alt="" />
-                                <span>{client.review}</span>
+                                <iframe src="https://embed.lottiefiles.com/animation/92462"
+                                    style={{width: '100%', height: '100%'}}
+                                ></iframe>
+                                {/* <img src={client.img} alt="" />
+                                <span>{client.review}</span> */}
                             </div>
                         </SwiperSlide>
                     )

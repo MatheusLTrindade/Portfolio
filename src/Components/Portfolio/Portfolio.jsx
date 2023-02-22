@@ -29,16 +29,34 @@ function Portfolio() {
                 className='portfolio-slider'
             >
                 <SwiperSlide>
-                    <img src={Sidebar} alt="" />
+                    <iframe 
+                        src="https://embed.lottiefiles.com/animation/92461"
+                        style={{width: '100%', height: '100%', borderRadius: '1rem'}}
+                    ></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={Ecommerce} alt="" />
+                    <iframe 
+                        src="https://embed.lottiefiles.com/animation/92461"
+                        style={{width: '100%', height: '100%', borderRadius: '1rem'}}
+                    ></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={HOC} alt="" />
+                    <iframe 
+                        src="https://embed.lottiefiles.com/animation/92461"
+                        style={{width: '100%', height: '100%', borderRadius: '1rem'}}
+                    ></iframe>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={MusicApp} alt="" />
+                    <iframe 
+                        src="https://embed.lottiefiles.com/animation/92461"
+                        style={{width: '100%', height: '100%', borderRadius: '1rem'}}
+                    ></iframe>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <iframe 
+                        src="https://embed.lottiefiles.com/animation/92461"
+                        style={{width: '100%', height: '100%', borderRadius: '1rem'}}
+                    ></iframe>
                 </SwiperSlide>
             </Swiper>
         </div>
