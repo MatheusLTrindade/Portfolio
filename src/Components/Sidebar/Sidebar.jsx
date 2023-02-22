@@ -5,7 +5,7 @@ import { themeContext } from "../../Context";
 import './Sidebar.css'
 
 import EllipsisV from '@iconscout/react-unicons/icons/uil-ellipsis-v'
-import Closebar from '@iconscout/react-unicons/icons/uil-times-square'
+import Closebar from '@iconscout/react-unicons/icons/uil-times-circle'
 
 import { useTranslation } from "react-i18next";
 import Logo from '../Logo/Logo';
@@ -23,17 +23,17 @@ function Sidebar() {
 
     return (
         <div className='sidebar'>
-            <div className={sidebar ? 's-btn active' : 's-btn'}>
+            <div className={sidebar ? 'sidebar-btn active' : 'sidebar-btn'}>
                 <EllipsisV className='btn' onClick={showSidebar}/>
             </div>
-            <div className={sidebar ? 's-menu active' : 's-menu'}>
-                <div className="s-btn-close" onClick={showSidebar}>
+            <div className={sidebar ? 'sidebar-menu active' : 'sidebar-menu'}>
+                <div className="sidebar-btn-close" onClick={showSidebar}>
                     <Closebar />
                 </div>
                 <Logo />
                 <ul 
                     style={{listStyleType: 'none'}} 
-                    className='s-menu-items'
+                    className='sidebar-menu-items'
                 >
                     <Link spy={true} to='Navbar' smooth={true}>
                         <li onClick={showSidebar}>{t('Home')}</li>
@@ -52,7 +52,7 @@ function Sidebar() {
                     </Link>
                     <Link spy={true} to='Contact' smooth={true}>
                         <button 
-                            className="button s-button"
+                            className="button sidebar-button"
                             style={{background: lightMode? 'var(--black)' : ''}}
                             onClick={showSidebar}
                         >{t('Contact')}</button>
