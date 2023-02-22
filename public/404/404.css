@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #f3efe0;
+}
+
+a{
+    text-decoration: none;
+    color: #222222;
+    font-size: small;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    font-weight: 800;
+    border: 0.2rem solid;
+    background: transparent;
+    transition: 0.45s;
+}
+
+a:hover{
+    transform: scale(1.5);
+    background: #00adb5;
+    color: #f3efe0;
+}
+
+@media screen and (max-width: 480px) {
+    a{
+        transform: scale(0.7);
+    }
+}

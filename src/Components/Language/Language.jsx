@@ -31,7 +31,7 @@ function Language(){
         <div className="language">
             <LanguageIcon className="drop-btn"
                 style={{
-                    background: lightMode ? 'var(--eggshell)' : 'transparent'
+                    background: lightMode ? 'var(--eggshell)' : ''
                 }}
             />
             <div className="drop-menu">

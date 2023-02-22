@@ -34,12 +34,16 @@
     padding-top: 0.5rem;
 }
 
+.c-right > form > span{
+    text-align: center; 
+}
+
 @media screen and (max-width: 480px) {
     .contact-form{
         padding: 0;
         flex-direction: column;
         gap: 5rem;
-        height: 40rem;
+        min-height: 42rem;
     }
     .c-right .user{
         width: 13rem;
