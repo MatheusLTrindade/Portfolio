@@ -44,7 +44,7 @@ function Navbar() {
                     <button className="button n-button">{t('Contact')}</button>
                 </Link>
                 <Language/>
-                <Sidebar />
+                <Sidebar/>
             </div>
         </div>
     )
