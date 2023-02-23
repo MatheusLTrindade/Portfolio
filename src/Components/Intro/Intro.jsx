@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 
 import './Intro.css'
 
@@ -22,7 +23,23 @@ function Intro() {
             <div className="i-left">
                 <div className="i-name">
                     <span>{t('Hy! I Am')}</span>
-                    <span>Matheus Trindade</span>
+                    <span>
+                        <Typewriter
+                            options={{
+                                autoStart: true,
+                                loop: true,
+                                wrapperClassName: 'Typewriter__wrapper',
+                                cursorClassName: 'Typewriter__cursor',
+                                delay: 40,
+                                strings: [
+                                    'Matheus Trindade',
+                                    t('Developer'),
+                                    'Designer',
+                                    'UI/UX'
+                                ]
+                            }}
+                        />
+                    </span>
                     <span>{t('Frontend Developer with high level of experience in web designing and development, producing quality work')}</span>
                 </div>
                 <button className="button i-button">{t('Hire me')}</button>

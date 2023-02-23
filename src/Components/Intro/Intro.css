@@ -27,6 +27,14 @@
     font-weight: bold;
     font-size: 3rem;
 }
+.Typewriter__wrapper {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.Typewriter__cursor {
+    font-weight: bold;
+    font-size: 3rem;
+}
 
 .i-name > :nth-child(3){
     font-weight: 100;
