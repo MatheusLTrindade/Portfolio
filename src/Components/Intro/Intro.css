@@ -136,6 +136,9 @@
         height: 64rem;
         gap: 8rem;
     }
+    .i-name > :nth-child(2){
+        height: 7rem;
+    }
     .blur-icons{
         top: 25.5rem;
     }
