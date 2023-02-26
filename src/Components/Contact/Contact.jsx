@@ -25,12 +25,16 @@ function Contact() {
 
         emailjs.sendForm('service_b1t62kg', 'template_6fveaql', form.current, 'eyjHvW0tdRMlCNTC2')
             .then((result) => {
-                console.log(result.text);
                 setDone(true);
                 setUser({
                     name: '',
                     email: '',
                     message: ''
+                });
+                setUser({
+                    name: null,
+                    email: null,
+                    message: null
                 });
                 setStatus({
                     type: 'success',
