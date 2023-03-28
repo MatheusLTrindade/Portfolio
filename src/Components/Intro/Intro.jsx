@@ -42,7 +42,9 @@ function Intro() {
                     </span>
                     <span>{t('Frontend Developer with high level of experience in web designing and development, producing quality work')}</span>
                 </div>
-                <button className="button i-button">{t('Hire me')}</button>
+                <a href="https://wa.me/5511957103895/">
+                    <button className="button i-button">{t('Hire me')}</button>
+                </a>
                 <div className="i-icons">
                     <a href="https://github.com/MatheusLTrindade">
                         <img src={GitHub} alt="" />

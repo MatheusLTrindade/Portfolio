@@ -9,7 +9,6 @@
 
         "English": "English",
         "Portuguese": "Portuguese",
-        "Spanish": "Spanish",
 
         "Hy! I Am": "Hy! I Am",
         "Frontend Developer with high level of experience in web designing and development, producing quality work": "Frontend Developer with high level of experience in web designing and development, producing quality work",
@@ -17,7 +16,9 @@
 
         "My Awesome": "My Awesome",
         "Services": "Services",
-        "Download CV": "Download CV",
+        "Here are some of the technologies I work with.": "Here are some of the technologies I work with.",
+        "If you prefer, you can download my resume from the button below.": "If you prefer, you can download my resume from the button below.",
+        "Download": "Download",
         "Developer": "Developer",
         "LEARN MORE": "LEARN MORE",
 
@@ -28,8 +29,8 @@
         "companies": "companies",
         "Work": "Work",
 
-        "Works for All these": "Works for All these",
-        "Brands & Clients": "Brands & Clients",
+        "Work with All these": "Work with All these",
+        "Programming Languages": "Programming Languages",
         "Hire me": "Hire me",
 
         "Recent Projects": "Recent Projects",

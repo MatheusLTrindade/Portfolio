@@ -26,10 +26,12 @@ function Services() {
                 <span
                     style={{maxWidth: '360px'}}
                     >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam quibusdam placeat nostrum suscipit natus aspernatur porro, iusto vitae qui delectus! Dolorum qui tempore fuga corporis quo maxime odit dolore?
+                    {t('Here are some of the technologies I work with.')}
+                    <br/>
+                    {t('If you prefer, you can download my resume from the button below.')}
                 </span>
                 <a href={Resume} download>
-                    <button className= "button s-button">{t('Download CV')}</button>
+                    <button className= "button s-button">{t('Download')}</button>
                 </a>
                 <div className="blur s-blur1" style={{background: '#ABF1FF94'}}></div>
             </div>
@@ -46,7 +48,7 @@ function Services() {
                     <Card 
                         emoji = {HeartEmoji}
                         heading = {t('Designer')}
-                        detail = {'Figma, Canvas, Sketch, Photoshop, Adobe, Adobe XD'}
+                        detail = {'Canvas, Sketch, Photoshop'}
                     />
                 </motion.div>
 
@@ -60,7 +62,7 @@ function Services() {
                     <Card 
                         emoji = {Glasses}
                         heading = {t('Developer')}
-                        detail = {'HTML, CSS, JavaScript, React, Angular, Vue, Dooker, Sass, Bootstrap'}
+                        detail = {'Java, HTML, CSS, JavaScript, React, Node, MySQL, Sass, Bootstrap, Bulma'}
                     />
                 </motion.div>
 
@@ -74,7 +76,7 @@ function Services() {
                     <Card 
                         emoji = {Humble}
                         heading = {'UI/UX'}
-                        detail = {'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                        detail = {'Figma, Adobe XD'}
                     />
                 </motion.div>
 

@@ -1,0 +1,41 @@
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+  }
+  
+  .spinner {
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+  }
+
+  .preloader .logoImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+
+  .preloader .logoImg > img{
+    padding-top: 10px;
+    width: 55px;
+    height: 55px;
+    animation: pulse 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes pulse{
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
+  

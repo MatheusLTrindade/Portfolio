@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 
 import './Works.css'
 
-import Upwork from '../../img/Upwork.png'
-import Fiverr from '../../img/fiverr.png'
-import Amazon from '../../img/amazon.png'
-import Shopify from '../../img/Shopify.png'
-import Facebook from '../../img/Facebook.png'
+import Java from '../../img/logo-java.png'
+import Html from '../../img/logo-html5.png'
+import JavaScript from '../../img/logo-javascript.png'
+import Css from '../../img/logo-css3.svg'
+import MySql from '../../img/logo-mysql2.png'
 
 import { useTranslation } from "react-i18next";
 
@@ -21,8 +21,8 @@ function Works() {
         <div className="works">
             {/* left side */}
             <div className="awesome">
-                <span>{t('Works for All these')}</span>
-                <span>{t('Brands & Clients')}</span>
+                <span>{t('Work with all these')}</span>
+                <span>{t('Programming Languages')}</span>
                 <span>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     <br />
@@ -48,19 +48,19 @@ function Works() {
                 className="w-mainCircle"
                 >
                     <div className="w-secCircle">
-                        <img src={Upwork} alt="" />
+                        <img src={Java} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Fiverr} alt="" />
+                        <img src={Html} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Amazon} alt="" />
+                        <img src={JavaScript} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Shopify} alt="" />
+                        <img src={Css} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Facebook} alt="" />
+                        <img src={MySql} alt="" />
                     </div>
                 </motion.div>
 

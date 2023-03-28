@@ -51,14 +51,6 @@ function Language(){
                     >
                         {t('Portuguese')}
                 </span>
-                <span
-                    onClick={()=> changeLanguage('es')}
-                    style={{
-                        background: currentLanguage === 'es' ? 'var(--verdigris)' : ''
-                    }}
-                    >
-                        {t('Spanish')}
-                </span>
             </div>
         </div>
     )

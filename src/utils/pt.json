@@ -9,7 +9,6 @@
 
         "English": "Inglês",
         "Portuguese": "Português",
-        "Spanish": "Espanhol",
 
         "Hy! I Am": "Olá! Eu sou",
         "Frontend Developer with high level of experience in web designing and development, producing quality work": "Desenvolvedor Frontend com alto nível de experiência em web design e desenvolvimento, produzindo trabalhos de qualidade",
@@ -17,7 +16,9 @@
 
         "My Awesome": "Meus Incríveis",
         "Services": "Serviços",
-        "Download CV": "Baixar CV",
+        "Here are some of the technologies I work with.": "Aqui estão algumas das tecnologias com as quais trabalho.",
+        "If you prefer, you can download my resume from the button below.": "Se preferir, você pode baixar meu currículo atrás do botão abaixo.",
+        "Download": "Baixar",
         "Developer": "Desenvolvedor",
         "LEARN MORE": "SAIBA MAIS",
 
@@ -28,8 +29,8 @@
         "companies": "empresas",
         "Work": "Trabalho",
 
-        "Works for All these": "Trabalho para todas estas",
-        "Brands & Clients": "Marcas e Clientes",
+        "Work with All these": "Trabalho com todas essas",
+        "Programming Languages": "Linguagens de Programação",
         "Hire me": "Contrate-me",
 
         "Recent Projects": "Projetos Recentes",
